@@ -1,0 +1,50 @@
+{
+    "category": "Mathematics",
+    "description": "Mathematical concepts and terminology.",
+    "Easy": [
+        "number",
+        "angle",
+        "circle",
+        "square",
+        "triangle",
+        "fraction",
+        "decimal",
+        "algebra",
+        "geometry",
+        "formula",
+        "integer",
+        "radius",
+        "diameter",
+        "volume",
+        "matrix"
+    ],
+    "Medium": [
+        "equation",
+        "polynomial",
+        "probability",
+        "statistics",
+        "quadratic",
+        "logarithm",
+        "calculus",
+        "integral",
+        "derivative",
+        "perimeter",
+        "hypotenuse",
+        "coordinate",
+        "sequence",
+        "function",
+        "variable"
+    ],
+    "Hard": [
+        "trigonometry",
+        "differentiation",
+        "combinatorics",
+        "eigenvector",
+        "determinant",
+        "exponentiation",
+        "mathematician",
+        "transformation",
+        "approximation",
+        "cryptanalysis"
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "category": "Nature",
+    "description": "Natural environments and phenomena.",
+    "Easy": [
+        "forest",
+        "river",
+        "mountain",
+        "desert",
+        "flower",
+        "ocean",
+        "island",
+        "cloud",
+        "rain",
+        "thunder",
+        "valley",
+        "canyon",
+        "stream",
+        "sunrise",
+        "sunset"
+    ],
+    "Medium": [
+        "waterfall",
+        "volcano",
+        "hurricane",
+        "earthquake",
+        "ecosystem",
+        "rainforest",
+        "grassland",
+        "glacier",
+        "landscape",
+        "lightning",
+        "evergreen",
+        "temperature",
+        "environment",
+        "atmosphere",
+        "biodiversity"
+    ],
+    "Hard": [
+        "photosynthesis",
+        "bioluminescence",
+        "deforestation",
+        "electromagnetism",
+        "hydroelectricity",
+        "environmentalism",
+        "conservationist",
+        "precipitation",
+        "intercontinental",
+        "microorganisms"
+    ]
+}

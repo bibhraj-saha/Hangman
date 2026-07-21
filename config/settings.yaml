@@ -3,6 +3,19 @@ game:
   default_category: Animals
   default_difficulty: Easy
 
+scoring:
+  easy_multiplier: 1
+  medium_multiplier: 2
+  hard_multiplier: 3
+  wrong_guess_penalty: 5
+  remaining_attempt_bonus: 10
+
+leaderboard:
+  max_entries: 5
+
+words:
+  directory: data/words
+
 logging:
   level: INFO
   file: logs/hangman.log

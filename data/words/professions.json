@@ -1,0 +1,50 @@
+{
+    "category": "Professions",
+    "description": "Occupations and careers.",
+    "Easy": [
+        "doctor",
+        "teacher",
+        "farmer",
+        "pilot",
+        "lawyer",
+        "driver",
+        "chef",
+        "nurse",
+        "artist",
+        "writer",
+        "actor",
+        "singer",
+        "plumber",
+        "carpenter",
+        "electrician"
+    ],
+    "Medium": [
+        "engineer",
+        "scientist",
+        "architect",
+        "pharmacist",
+        "journalist",
+        "accountant",
+        "programmer",
+        "mechanic",
+        "detective",
+        "photographer",
+        "firefighter",
+        "consultant",
+        "researcher",
+        "veterinarian",
+        "statistician"
+    ],
+    "Hard": [
+        "microbiologist",
+        "paleontologist",
+        "neurosurgeon",
+        "epidemiologist",
+        "cryptographer",
+        "meteorologist",
+        "psychoanalyst",
+        "biotechnologist",
+        "anthropologist",
+        "anesthesiologist"
+    ]
+}

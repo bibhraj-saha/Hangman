@@ -1,0 +1,50 @@
+{
+    "category": "Geography",
+    "description": "Geographical features and places.",
+    "Easy": [
+        "river",
+        "mountain",
+        "island",
+        "desert",
+        "forest",
+        "ocean",
+        "valley",
+        "canyon",
+        "coast",
+        "beach",
+        "plain",
+        "plateau",
+        "glacier",
+        "volcano",
+        "delta"
+    ],
+    "Medium": [
+        "peninsula",
+        "archipelago",
+        "waterfall",
+        "rainforest",
+        "hemisphere",
+        "equator",
+        "longitude",
+        "latitude",
+        "reservoir",
+        "tributary",
+        "continent",
+        "highlands",
+        "wetlands",
+        "estuary",
+        "savannah"
+    ],
+    "Hard": [
+        "topography",
+        "cartography",
+        "geomorphology",
+        "hydrosphere",
+        "lithosphere",
+        "biosphere",
+        "stratovolcano",
+        "interfluve",
+        "orographic",
+        "bathymetry"
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "category": "Music",
+    "description": "Music and musical instruments.",
+    "Easy": [
+        "guitar",
+        "violin",
+        "drums",
+        "piano",
+        "singer",
+        "chorus",
+        "melody",
+        "rhythm",
+        "album",
+        "concert",
+        "microphone",
+        "speaker",
+        "record",
+        "artist",
+        "lyrics"
+    ],
+    "Medium": [
+        "orchestra",
+        "conductor",
+        "symphony",
+        "harmonica",
+        "saxophone",
+        "composition",
+        "performance",
+        "amplifier",
+        "headphones",
+        "instrument",
+        "recordlabel",
+        "playlist",
+        "recording",
+        "acoustics",
+        "classical"
+    ],
+    "Hard": [
+        "counterpoint",
+        "electroacoustic",
+        "musicology",
+        "improvisation",
+        "instrumentation",
+        "ethnomusicology",
+        "synchronization",
+        "multitracking",
+        "philharmonic",
+        "orchestration"
+    ]
+}

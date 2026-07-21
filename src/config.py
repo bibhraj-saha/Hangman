@@ -6,6 +6,7 @@ from pathlib import Path
 
 import yaml
 
+
 CONFIG_PATH = Path("config/settings.yaml")
 
 
@@ -17,3 +18,6 @@ def load_config() -> dict:
         encoding="utf-8",
     ) as file:
         return yaml.safe_load(file)
+
+
+CONFIG = load_config()

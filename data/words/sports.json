@@ -1,0 +1,50 @@
+{
+    "category": "Sports",
+    "description": "Popular sports and sporting terms.",
+    "Easy": [
+        "cricket",
+        "football",
+        "tennis",
+        "golf",
+        "boxing",
+        "hockey",
+        "rugby",
+        "karate",
+        "cycling",
+        "rowing",
+        "skiing",
+        "running",
+        "bowling",
+        "archery",
+        "badminton"
+    ],
+    "Medium": [
+        "volleyball",
+        "basketball",
+        "gymnastics",
+        "wrestling",
+        "marathon",
+        "triathlon",
+        "skateboarding",
+        "snowboarding",
+        "weightlifting",
+        "motorsport",
+        "goalkeeper",
+        "championship",
+        "tournament",
+        "referee",
+        "scoreboard"
+    ],
+    "Hard": [
+        "synchronisedswimming",
+        "mountaineering",
+        "paralympics",
+        "decathlon",
+        "biathlon",
+        "tablefootball",
+        "sportsmanship",
+        "counterattack",
+        "ultramarathon",
+        "professionalism"
+    ]
+}

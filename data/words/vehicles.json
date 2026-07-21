@@ -1,0 +1,50 @@
+{
+    "category": "Vehicles",
+    "description": "Transportation and automobiles.",
+    "Easy": [
+        "car",
+        "truck",
+        "train",
+        "plane",
+        "boat",
+        "bicycle",
+        "scooter",
+        "motorcycle",
+        "subway",
+        "tractor",
+        "bus",
+        "van",
+        "ship",
+        "canoe",
+        "jeep"
+    ],
+    "Medium": [
+        "helicopter",
+        "locomotive",
+        "convertible",
+        "ambulance",
+        "excavator",
+        "bulldozer",
+        "spaceship",
+        "hovercraft",
+        "aircraft",
+        "passenger",
+        "container",
+        "transport",
+        "minibus",
+        "freighter",
+        "tramway"
+    ],
+    "Hard": [
+        "electrification",
+        "transportation",
+        "aerodynamics",
+        "infrastructure",
+        "turbocharger",
+        "refrigeration",
+        "motorization",
+        "hydrodynamics",
+        "counterbalance",
+        "multivehicle"
+    ]
+}

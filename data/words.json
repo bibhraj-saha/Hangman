@@ -1,0 +1,73 @@
+{
+  "Animals": {
+    "Easy": [
+      "cat",
+      "dog",
+      "lion",
+      "tiger",
+      "zebra"
+    ],
+    "Medium": [
+      "elephant",
+      "kangaroo",
+      "crocodile",
+      "chimpanzee",
+      "rhinoceros"
+    ],
+    "Hard": [
+      "hippopotamus",
+      "orangutan",
+      "chameleon",
+      "alligator",
+      "porcupine"
+    ]
+  },
+
+  "Technology": {
+    "Easy": [
+      "python",
+      "laptop",
+      "server",
+      "coding",
+      "binary"
+    ],
+    "Medium": [
+      "database",
+      "compiler",
+      "algorithm",
+      "framework",
+      "repository"
+    ],
+    "Hard": [
+      "virtualization",
+      "microprocessor",
+      "authentication",
+      "containerization",
+      "cryptography"
+    ]
+  },
+
+  "Countries": {
+    "Easy": [
+      "india",
+      "japan",
+      "canada",
+      "france",
+      "brazil"
+    ],
+    "Medium": [
+      "argentina",
+      "portugal",
+      "australia",
+      "singapore",
+      "switzerland"
+    ],
+    "Hard": [
+      "liechtenstein",
+      "kazakhstan",
+      "turkmenistan",
+      "azerbaijan",
+      "luxembourg"
+    ]
+  }
+}

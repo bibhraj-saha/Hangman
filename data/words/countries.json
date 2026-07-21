@@ -1,0 +1,50 @@
+{
+    "category": "Countries",
+    "description": "Countries and nations of the world.",
+    "Easy": [
+        "india",
+        "japan",
+        "canada",
+        "france",
+        "brazil",
+        "china",
+        "italy",
+        "mexico",
+        "nepal",
+        "spain",
+        "egypt",
+        "greece",
+        "norway",
+        "sweden",
+        "finland"
+    ],
+    "Medium": [
+        "argentina",
+        "portugal",
+        "singapore",
+        "switzerland",
+        "australia",
+        "indonesia",
+        "madagascar",
+        "mongolia",
+        "thailand",
+        "philippines",
+        "pakistan",
+        "afghanistan",
+        "zimbabwe",
+        "cameroon",
+        "mozambique"
+    ],
+    "Hard": [
+        "liechtenstein",
+        "azerbaijan",
+        "turkmenistan",
+        "kazakhstan",
+        "luxembourg",
+        "kyrgyzstan",
+        "tajikistan",
+        "northmacedonia",
+        "bosniaherzegovina",
+        "papuanewguinea"
+    ]
+}

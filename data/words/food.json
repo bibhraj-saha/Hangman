@@ -1,0 +1,50 @@
+{
+    "category": "Food",
+    "description": "Foods, ingredients and cooking.",
+    "Easy": [
+        "bread",
+        "butter",
+        "banana",
+        "apple",
+        "orange",
+        "rice",
+        "pizza",
+        "burger",
+        "salad",
+        "cheese",
+        "carrot",
+        "tomato",
+        "potato",
+        "coffee",
+        "cookie"
+    ],
+    "Medium": [
+        "spaghetti",
+        "sandwich",
+        "croissant",
+        "blueberry",
+        "pineapple",
+        "chocolate",
+        "watermelon",
+        "strawberry",
+        "cappuccino",
+        "vegetable",
+        "restaurant",
+        "breakfast",
+        "dinnerplate",
+        "ingredient",
+        "cheesecake"
+    ],
+    "Hard": [
+        "charcuterie",
+        "mayonnaise",
+        "fermentation",
+        "pomegranate",
+        "internationalcuisine",
+        "confectionery",
+        "extraordinaryrecipe",
+        "caramelization",
+        "electrogastronomy",
+        "gastroenterology"
+    ]
+}

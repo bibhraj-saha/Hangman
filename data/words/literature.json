@@ -1,0 +1,50 @@
+{
+    "category": "Literature",
+    "description": "Books, writing and literary terms.",
+    "Easy": [
+        "novel",
+        "poem",
+        "story",
+        "author",
+        "chapter",
+        "writer",
+        "library",
+        "reader",
+        "fiction",
+        "drama",
+        "comedy",
+        "fantasy",
+        "mystery",
+        "legend",
+        "fable"
+    ],
+    "Medium": [
+        "manuscript",
+        "biography",
+        "autobiography",
+        "publisher",
+        "protagonist",
+        "antagonist",
+        "narrative",
+        "dialogue",
+        "character",
+        "literature",
+        "encyclopedia",
+        "illustration",
+        "interpretation",
+        "adventure",
+        "screenplay"
+    ],
+    "Hard": [
+        "personification",
+        "alliteration",
+        "metaphorical",
+        "bibliography",
+        "foreshadowing",
+        "hyperbole",
+        "encyclopedic",
+        "philosophical",
+        "autobiographical",
+        "contemporary"
+    ]
+}

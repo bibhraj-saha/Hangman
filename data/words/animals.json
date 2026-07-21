@@ -1,0 +1,50 @@
+{
+    "category": "Animals",
+    "description": "Animals from around the world.",
+    "Easy": [
+        "cat",
+        "dog",
+        "lion",
+        "tiger",
+        "horse",
+        "sheep",
+        "goat",
+        "zebra",
+        "panda",
+        "camel",
+        "monkey",
+        "rabbit",
+        "donkey",
+        "fox",
+        "wolf"
+    ],
+    "Medium": [
+        "elephant",
+        "kangaroo",
+        "alligator",
+        "chimpanzee",
+        "crocodile",
+        "rhinoceros",
+        "porcupine",
+        "hedgehog",
+        "flamingo",
+        "woodpecker",
+        "armadillo",
+        "meerkat",
+        "octopus",
+        "pelican",
+        "wolverine"
+    ],
+    "Hard": [
+        "hippopotamus",
+        "orangutan",
+        "chameleon",
+        "axolotl",
+        "echidna",
+        "platypus",
+        "narwhal",
+        "coelacanth",
+        "pterodactyl",
+        "ornithorhynchus"
+    ]
+}

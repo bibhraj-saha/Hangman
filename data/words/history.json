@@ -1,0 +1,50 @@
+{
+    "category": "History",
+    "description": "Historical events and civilizations.",
+    "Easy": [
+        "empire",
+        "castle",
+        "king",
+        "queen",
+        "battle",
+        "treaty",
+        "dynasty",
+        "soldier",
+        "victory",
+        "weapon",
+        "ancient",
+        "medieval",
+        "pharaoh",
+        "roman",
+        "greek"
+    ],
+    "Medium": [
+        "renaissance",
+        "revolution",
+        "civilization",
+        "expedition",
+        "democracy",
+        "parliament",
+        "monarchy",
+        "colonization",
+        "archaeology",
+        "chronology",
+        "emperor",
+        "constitution",
+        "republic",
+        "crusader",
+        "historian"
+    ],
+    "Hard": [
+        "mesopotamia",
+        "industrialization",
+        "historiography",
+        "byzantine",
+        "feudalism",
+        "humanitarian",
+        "archaeologist",
+        "reformation",
+        "constitutionalism",
+        "imperialism"
+    ]
+}

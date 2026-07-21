@@ -1,0 +1,50 @@
+{
+    "category": "Science",
+    "description": "Scientific concepts and discoveries.",
+    "Easy": [
+        "atom",
+        "plant",
+        "earth",
+        "energy",
+        "force",
+        "matter",
+        "cell",
+        "virus",
+        "oxygen",
+        "carbon",
+        "gravity",
+        "planet",
+        "galaxy",
+        "rocket",
+        "neuron"
+    ],
+    "Medium": [
+        "ecosystem",
+        "photosynthesis",
+        "molecule",
+        "radiation",
+        "laboratory",
+        "evolution",
+        "electricity",
+        "microscope",
+        "telescope",
+        "chemistry",
+        "volcano",
+        "meteorite",
+        "satellite",
+        "geology",
+        "thermodynamics"
+    ],
+    "Hard": [
+        "electromagnetism",
+        "radioactivity",
+        "bioluminescence",
+        "spectrophotometer",
+        "nanotechnology",
+        "crystallography",
+        "electrophoresis",
+        "photosynthesizing",
+        "electrochemistry",
+        "biotechnology"
+    ]
+}

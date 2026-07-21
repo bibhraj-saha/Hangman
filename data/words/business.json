@@ -1,0 +1,50 @@
+{
+    "category": "Business",
+    "description": "Business, finance and management.",
+    "Easy": [
+        "office",
+        "salary",
+        "market",
+        "profit",
+        "budget",
+        "client",
+        "invoice",
+        "meeting",
+        "manager",
+        "company",
+        "startup",
+        "finance",
+        "career",
+        "income",
+        "project"
+    ],
+    "Medium": [
+        "entrepreneur",
+        "investment",
+        "negotiation",
+        "shareholder",
+        "accounting",
+        "leadership",
+        "marketing",
+        "operations",
+        "procurement",
+        "recruitment",
+        "consultant",
+        "economics",
+        "corporation",
+        "productivity",
+        "management"
+    ],
+    "Hard": [
+        "internationalization",
+        "diversification",
+        "commercialization",
+        "entrepreneurship",
+        "organizational",
+        "capitalization",
+        "competitiveness",
+        "industrialization",
+        "globalization",
+        "multinational"
+    ]
+}

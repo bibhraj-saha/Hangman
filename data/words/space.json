@@ -1,0 +1,50 @@
+{
+    "category": "Space",
+    "description": "Astronomy and space exploration.",
+    "Easy": [
+        "earth",
+        "moon",
+        "sun",
+        "mars",
+        "venus",
+        "saturn",
+        "planet",
+        "rocket",
+        "galaxy",
+        "meteor",
+        "comet",
+        "orbit",
+        "eclipse",
+        "asteroid",
+        "telescope"
+    ],
+    "Medium": [
+        "astronaut",
+        "satellite",
+        "observatory",
+        "constellation",
+        "spacecraft",
+        "spacesuit",
+        "blackhole",
+        "supernova",
+        "nebula",
+        "milkyway",
+        "cosmology",
+        "gravity",
+        "radiation",
+        "quasar",
+        "exoplanet"
+    ],
+    "Hard": [
+        "interstellar",
+        "astrophysics",
+        "spectroscopy",
+        "magnetosphere",
+        "electromagnetic",
+        "heliosphere",
+        "planetarium",
+        "astrobiology",
+        "gravitational",
+        "cosmological"
+    ]
+}

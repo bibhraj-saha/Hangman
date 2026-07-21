@@ -1,0 +1,50 @@
+{
+    "category": "Programming",
+    "description": "Programming languages and software development concepts.",
+    "Easy": [
+        "class",
+        "object",
+        "method",
+        "string",
+        "float",
+        "while",
+        "return",
+        "import",
+        "module",
+        "lambda",
+        "python",
+        "git",
+        "tuple",
+        "list",
+        "loop"
+    ],
+    "Medium": [
+        "decorator",
+        "generator",
+        "dictionary",
+        "inheritance",
+        "polymorphism",
+        "recursion",
+        "namespace",
+        "exception",
+        "parameter",
+        "repository",
+        "framework",
+        "interface",
+        "iteration",
+        "abstraction",
+        "serialization"
+    ],
+    "Hard": [
+        "metaprogramming",
+        "multithreading",
+        "asynchronous",
+        "encapsulation",
+        "dependencyinjection",
+        "comprehension",
+        "deserialization",
+        "introspection",
+        "memoization",
+        "implementation"
+    ]
+}

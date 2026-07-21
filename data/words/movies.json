@@ -1,0 +1,50 @@
+{
+    "category": "Movies",
+    "description": "Cinema and filmmaking.",
+    "Easy": [
+        "actor",
+        "camera",
+        "screen",
+        "ticket",
+        "comedy",
+        "drama",
+        "horror",
+        "action",
+        "cinema",
+        "studio",
+        "script",
+        "poster",
+        "director",
+        "hero",
+        "villain"
+    ],
+    "Medium": [
+        "soundtrack",
+        "screenplay",
+        "animation",
+        "cinematography",
+        "documentary",
+        "blockbuster",
+        "franchise",
+        "character",
+        "television",
+        "production",
+        "performance",
+        "dialogue",
+        "premiere",
+        "producer",
+        "editing"
+    ],
+    "Hard": [
+        "interstellar",
+        "biographical",
+        "psychological",
+        "misenscene",
+        "computergeneratedimagery",
+        "postproduction",
+        "stopmotionanimation",
+        "internationalrelease",
+        "cinematographer",
+        "screenwriter"
+    ]
+}

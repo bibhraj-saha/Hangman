@@ -1,0 +1,50 @@
+{
+    "category": "Mythology",
+    "description": "Mythological characters and concepts.",
+    "Easy": [
+        "zeus",
+        "hera",
+        "apollo",
+        "ares",
+        "odin",
+        "thor",
+        "loki",
+        "freya",
+        "anubis",
+        "ra",
+        "atlas",
+        "hydra",
+        "pegasus",
+        "phoenix",
+        "cerberus"
+    ],
+    "Medium": [
+        "poseidon",
+        "hephaestus",
+        "persephone",
+        "hercules",
+        "medusa",
+        "minotaur",
+        "centaur",
+        "griffin",
+        "valkyrie",
+        "beowulf",
+        "gilgamesh",
+        "manticore",
+        "chimera",
+        "basilisk",
+        "cyclops"
+    ],
+    "Hard": [
+        "clytemnestra",
+        "agamemnon",
+        "prometheus",
+        "mephistopheles",
+        "quetzalcoatl",
+        "amaterasu",
+        "cacophony",
+        "hecatoncheires",
+        "typhon",
+        "eurydice"
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "category": "Technology",
+    "description": "Technology and computing terms.",
+    "Easy": [
+        "python",
+        "binary",
+        "coding",
+        "laptop",
+        "server",
+        "router",
+        "screen",
+        "monitor",
+        "keyboard",
+        "printer",
+        "network",
+        "browser",
+        "memory",
+        "storage",
+        "backup"
+    ],
+    "Medium": [
+        "algorithm",
+        "repository",
+        "framework",
+        "database",
+        "compiler",
+        "encryption",
+        "interface",
+        "processor",
+        "bandwidth",
+        "virtualization",
+        "deployment",
+        "firewall",
+        "debugging",
+        "automation",
+        "microchip"
+    ],
+    "Hard": [
+        "cryptocurrency",
+        "microarchitecture",
+        "telecommunication",
+        "containerization",
+        "authentication",
+        "synchronization",
+        "parallelization",
+        "cybersecurity",
+        "virtualmachine",
+        "multithreading"
+    ]
+}

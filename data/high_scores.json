@@ -1,0 +1,38 @@
+[
+    {
+        "player": "Bibhraj",
+        "score": 275,
+        "category": "Programming",
+        "difficulty": "Hard",
+        "word": "algorithm",
+        "won": true,
+        "timestamp": "2026-07-22"
+    },
+    {
+        "player": "Bibhraj",
+        "score": 275,
+        "category": "Programming",
+        "difficulty": "Hard",
+        "word": "algorithm",
+        "won": true,
+        "timestamp": "2026-07-22"
+    },
+    {
+        "player": "Alex",
+        "score": 180,
+        "category": "Science",
+        "difficulty": "Medium",
+        "word": "ecosystem",
+        "won": true,
+        "timestamp": "2026-07-22"
+    },
+    {
+        "player": "Alex",
+        "score": 180,
+        "category": "Science",
+        "difficulty": "Medium",
+        "word": "ecosystem",
+        "won": true,
+        "timestamp": "2026-07-22"
+    }
+]
