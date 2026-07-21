@@ -1,0 +1,8 @@
+game:
+  max_attempts: 6
+  default_category: Animals
+  default_difficulty: Easy
+
+logging:
+  level: INFO
+  file: logs/hangman.log

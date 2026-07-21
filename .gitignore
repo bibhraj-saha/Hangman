@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ruff
+.ruff_cache/
+
+# Black
+.black/
+
+# Build
+build/
+dist/
+*.spec
+
+# Packaging
+*.egg-info/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Environment
+.env
+
+# Misc
+*.tmp

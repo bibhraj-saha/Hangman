@@ -1,0 +1,18 @@
+[project]
+name = "hangman"
+version = "1.0.0"
+description = "Production-grade Hangman game built with Streamlit."
+readme = "README.md"
+requires-python = ">=3.11"
+
+[tool.black]
+line-length = 88
+target-version = ["py311"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
