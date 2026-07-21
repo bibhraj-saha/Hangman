@@ -10,7 +10,6 @@ from pathlib import Path
 
 from src.models import ScoreEntry
 
-
 HIGH_SCORE_FILE = Path("data/high_scores.json")
 
 
@@ -22,7 +21,7 @@ class HighScoreManager:
         self.high_scores = self._load()
 
     def _ensure_file_exists(self) -> None:
-        """Ensure the leaderboard file exists and contains valid JSON."""
+        """Ensure the leaderboard file exists."""
 
         HIGH_SCORE_FILE.parent.mkdir(
             parents=True,
@@ -57,7 +56,7 @@ class HighScoreManager:
             )
 
     def _load(self) -> list[ScoreEntry]:
-        """Load leaderboard."""
+        """Load scores."""
 
         with HIGH_SCORE_FILE.open(
             "r",
@@ -66,10 +65,14 @@ class HighScoreManager:
 
             data = json.load(file)
 
-        return [
-            ScoreEntry(**entry)
-            for entry in data
-        ]
+        scores = [ScoreEntry(**entry) for entry in data]
+
+        scores.sort(
+            key=lambda item: item.score,
+            reverse=True,
+        )
+
+        return scores
 
     def save(self) -> None:
         """Persist leaderboard."""
@@ -80,10 +83,7 @@ class HighScoreManager:
         ) as file:
 
             json.dump(
-                [
-                    asdict(score)
-                    for score in self.high_scores
-                ],
+                [asdict(score) for score in self.high_scores],
                 file,
                 indent=4,
             )
@@ -101,11 +101,45 @@ class HighScoreManager:
             reverse=True,
         )
 
-        self.high_scores = self.high_scores[:5]
+        self.save()
+
+    def get_all_scores(
+        self,
+    ) -> list[ScoreEntry]:
+        """Return all scores."""
+
+        return self.high_scores
+
+    def get_top_scores(
+        self,
+        limit: int = 5,
+    ) -> list[ScoreEntry]:
+        """Return top N scores."""
+
+        return self.high_scores[:limit]
+
+    def clear_scores(
+        self,
+    ) -> None:
+        """Remove every score."""
+
+        self.high_scores = []
 
         self.save()
 
-    def top_scores(self) -> list[ScoreEntry]:
-        """Return leaderboard."""
+    def total_games(
+        self,
+    ) -> int:
+        """Total games played."""
 
-        return self.high_scores
+        return len(self.high_scores)
+
+    def best_score(
+        self,
+    ) -> int:
+        """Highest score."""
+
+        if not self.high_scores:
+            return 0
+
+        return self.high_scores[0].score

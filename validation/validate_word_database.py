@@ -1,6 +1,5 @@
 from src.validator import WordDatabaseValidator
 
-
 validator = WordDatabaseValidator()
 
 validator.validate()

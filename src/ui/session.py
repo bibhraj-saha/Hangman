@@ -4,7 +4,6 @@ Session state initialization.
 
 import streamlit as st
 
-
 DEFAULTS = {
     "game_started": False,
     "player_name": "",

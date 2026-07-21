@@ -38,7 +38,7 @@ print("=" * 60)
 print()
 
 for index, score in enumerate(
-    manager.top_scores(),
+    manager.get_top_scores(),
     start=1,
 ):
 

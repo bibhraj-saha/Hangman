@@ -5,7 +5,6 @@ Streamlit game management.
 from src.game import GameEngine
 from src.word_loader import WordLoader
 
-
 loader = WordLoader()
 
 

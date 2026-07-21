@@ -6,7 +6,6 @@ from pathlib import Path
 
 import yaml
 
-
 CONFIG_PATH = Path("config/settings.yaml")
 
 

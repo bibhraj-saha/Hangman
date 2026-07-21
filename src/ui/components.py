@@ -14,9 +14,7 @@ def render_title():
 
 def render_subtitle():
 
-    st.caption(
-        "Modern Python • Streamlit • Portfolio Project"
-    )
+    st.caption("Modern Python • Streamlit • Portfolio Project")
 
 
 def render_game_information(
@@ -66,9 +64,7 @@ def render_hearts(
 
     hearts += "🤍" * (6 - remaining_attempts)
 
-    st.markdown(
-        f"### Lives: {hearts}"
-    )
+    st.markdown(f"### Lives: {hearts}")
 
 
 def render_progress(
@@ -79,6 +75,7 @@ def render_progress(
     progress = guessed / total
 
     st.progress(progress)
+
 
 def render_guess_history(
     title: str,
@@ -117,6 +114,7 @@ font-weight:bold;
         unsafe_allow_html=True,
     )
 
+
 def render_guess_chips(
     title: str,
     letters: set[str],
@@ -136,8 +134,7 @@ def render_guess_chips(
 
     for letter in sorted(letters):
 
-        chips += (
-            f"""
+        chips += f"""
 <span style="
 display:inline-block;
 margin:4px;
@@ -150,7 +147,6 @@ font-weight:bold;
 {letter.upper()}
 </span>
 """
-        )
 
     st.markdown(
         chips,

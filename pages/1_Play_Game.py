@@ -97,9 +97,7 @@ if not st.session_state.game_started:
 
         if not player_name.strip():
 
-            st.error(
-                "Please enter your name."
-            )
+            st.error("Please enter your name.")
 
             st.stop()
 
@@ -118,9 +116,7 @@ if not st.session_state.game_started:
 
         st.rerun()
 
-    st.info(
-        "Choose your settings and press **Start Game**."
-    )
+    st.info("Choose your settings and press **Start Game**.")
 
     st.stop()
 
@@ -228,11 +224,7 @@ def handle_guess(letter: str) -> None:
     st.rerun()
 
 
-guessed_letters = (
-    state.guessed_letters
-    |
-    state.incorrect_letters
-)
+guessed_letters = state.guessed_letters | state.incorrect_letters
 
 st.markdown("## ⌨️ Choose a Letter")
 
@@ -254,24 +246,19 @@ if engine.is_won():
 
     game_finished = True
 
-    score = (
-        state.remaining_attempts * 100
-        + len(state.word) * 25
-    )
+    score = state.remaining_attempts * 100 + len(state.word) * 25
 
     st.success("🎉 Congratulations!")
 
     st.balloons()
 
-    st.markdown(
-        f"""
+    st.markdown(f"""
 ### 🏆 You guessed the word!
 
 ## **{state.word.upper()}**
 
 ### ⭐ Final Score: **{score}**
-"""
-    )
+""")
 
 elif engine.is_lost():
 
@@ -279,24 +266,19 @@ elif engine.is_lost():
 
     st.error("💀 Game Over")
 
-    st.markdown(
-        f"""
+    st.markdown(f"""
 ### The correct word was
 
 # **{state.word.upper()}**
 
 Better luck next time!
-"""
-    )
+""")
 
 # ==========================================================
 # SAVE HIGH SCORE
 # ==========================================================
 
-if (
-    game_finished
-    and not st.session_state.score_saved
-):
+if game_finished and not st.session_state.score_saved:
 
     high_score_manager.add_score(
         ScoreEntry(
@@ -306,9 +288,7 @@ if (
             difficulty=st.session_state.difficulty,
             word=state.word,
             won=engine.is_won(),
-            timestamp=datetime.now().strftime(
-                "%Y-%m-%d %H:%M:%S"
-            ),
+            timestamp=datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         )
     )
 

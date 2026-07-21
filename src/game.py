@@ -8,7 +8,6 @@ from src.config import CONFIG
 from src.logger import get_logger
 from src.models import GameState, WordEntry
 
-
 logger = get_logger(__name__)
 
 
@@ -72,18 +71,13 @@ class GameEngine:
     def current_word(self) -> str:
 
         return " ".join(
-            letter
-            if letter in self.state.guessed_letters
-            else "_"
+            letter if letter in self.state.guessed_letters else "_"
             for letter in self.state.word
         )
 
     def is_won(self) -> bool:
 
-        return all(
-            letter in self.state.guessed_letters
-            for letter in self.state.word
-        )
+        return all(letter in self.state.guessed_letters for letter in self.state.word)
 
     def is_lost(self) -> bool:
 

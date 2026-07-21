@@ -10,7 +10,6 @@ from pathlib import Path
 
 from src.models import WordEntry
 
-
 WORDS_DIRECTORY = Path("data/words")
 
 
@@ -25,9 +24,7 @@ class WordLoader:
 
         database = {}
 
-        for file_path in sorted(
-            WORDS_DIRECTORY.glob("*.json")
-        ):
+        for file_path in sorted(WORDS_DIRECTORY.glob("*.json")):
 
             # Skip empty files
             if file_path.stat().st_size == 0:
@@ -47,9 +44,7 @@ class WordLoader:
     def get_categories(self) -> list[str]:
         """Return available categories."""
 
-        return sorted(
-            self.word_database.keys()
-        )
+        return sorted(self.word_database.keys())
 
     def get_difficulties(
         self,
@@ -80,7 +75,5 @@ class WordLoader:
             category=category,
             difficulty=difficulty,
             description=data["description"],
-            word=random.choice(
-                data[difficulty]
-            ),
+            word=random.choice(data[difficulty]),
         )

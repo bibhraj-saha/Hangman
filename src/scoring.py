@@ -30,19 +30,11 @@ class ScoreCalculator:
         if not won:
             return 0
 
-        base = cls.DIFFICULTY_POINTS[
-            difficulty
-        ]
+        base = cls.DIFFICULTY_POINTS[difficulty]
 
-        bonus = (
-            remaining_attempts
-            * cls.REMAINING_ATTEMPT_POINTS
-        )
+        bonus = remaining_attempts * cls.REMAINING_ATTEMPT_POINTS
 
-        penalty = (
-            wrong_guesses
-            * cls.WRONG_GUESS_PENALTY
-        )
+        penalty = wrong_guesses * cls.WRONG_GUESS_PENALTY
 
         return max(
             0,

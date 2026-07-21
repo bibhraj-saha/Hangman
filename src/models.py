@@ -50,12 +50,8 @@ class GameState:
 
     remaining_attempts: int
 
-    guessed_letters: set[str] = field(
-        default_factory=set
-    )
+    guessed_letters: set[str] = field(default_factory=set)
 
-    incorrect_letters: set[str] = field(
-        default_factory=set
-    )
+    incorrect_letters: set[str] = field(default_factory=set)
 
     score: int = 0

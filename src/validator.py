@@ -29,9 +29,7 @@ class WordDatabaseValidator:
 
     def validate(self):
 
-        for file in sorted(
-            self.directory.glob("*.json")
-        ):
+        for file in sorted(self.directory.glob("*.json")):
 
             self._validate_file(file)
 
@@ -50,9 +48,7 @@ class WordDatabaseValidator:
 
         except json.JSONDecodeError as error:
 
-            self.errors.append(
-                f"{file.name}: Invalid JSON ({error})."
-            )
+            self.errors.append(f"{file.name}: Invalid JSON ({error}).")
 
             return
 
@@ -60,9 +56,7 @@ class WordDatabaseValidator:
 
             if level not in data:
 
-                self.errors.append(
-                    f"{file.name}: Missing {level}."
-                )
+                self.errors.append(f"{file.name}: Missing {level}.")
 
                 continue
 
@@ -70,19 +64,13 @@ class WordDatabaseValidator:
 
             if len(words) == 0:
 
-                self.errors.append(
-                    f"{file.name}: Empty {level}."
-                )
+                self.errors.append(f"{file.name}: Empty {level}.")
 
-            duplicates = len(words) != len(
-                set(words)
-            )
+            duplicates = len(words) != len(set(words))
 
             if duplicates:
 
-                self.warnings.append(
-                    f"{file.name}: Duplicate words in {level}."
-                )
+                self.warnings.append(f"{file.name}: Duplicate words in {level}.")
 
             for word in words:
 
@@ -94,16 +82,11 @@ class WordDatabaseValidator:
 
                 if word != word.lower():
 
-                    self.warnings.append(
-                        f"{file.name}: '{word}' is not lowercase."
-                    )
+                    self.warnings.append(f"{file.name}: '{word}' is not lowercase.")
 
     def summary(self):
 
         return {
-
             "errors": self.errors,
-
             "warnings": self.warnings,
-
         }
