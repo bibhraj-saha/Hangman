@@ -3,7 +3,7 @@ source = src
 omit =
     tests/*
     validation/*
-    app.py
+    Home.py
     pages/*
     build.py
 

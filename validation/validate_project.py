@@ -25,7 +25,7 @@ def validate_structure() -> None:
     print_header("PROJECT STRUCTURE")
 
     required = [
-        "app.py",
+        "Home.py",
         "config",
         "data",
         "docs",

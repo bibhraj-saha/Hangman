@@ -97,7 +97,7 @@ st.code(
     """
 Hangman
 │
-├── app.py
+├── Home.py
 ├── pages/
 ├── src/
 ├── data/

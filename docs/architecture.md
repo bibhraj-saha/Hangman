@@ -29,7 +29,7 @@
 ```text
 Hangman/
 │
-├── app.py
+├── Home.py
 ├── pages/
 │   ├── 1_Play_Game.py
 │   ├── 2_Leaderboard.py

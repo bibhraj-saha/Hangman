@@ -92,7 +92,7 @@ The objective is **not** to build the largest Hangman game, but to demonstrate c
 
 ```text
 Hangman/
-├── app.py
+├── Home.py
 ├── assets/
 ├── config/
 ├── data/
