@@ -107,6 +107,27 @@ Hangman/
 
 ---
 
+## Screenshots
+
+### Home
+
+![Home](assets/screenshots/Home.png)
+
+### Gameplay
+
+![Gameplay](assets/screenshots/Play_Game_3.png)
+![Gameplay](assets/screenshots/Play_Game_6.png)
+
+### Leaderboard
+
+![Leaderboard](assets/screenshots/Leaderboard_1.png)
+
+### About
+
+![About](assets/screenshots/About_1.png)
+
+---
+
 ## Current Status
 
 Completed
