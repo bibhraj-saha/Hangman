@@ -1,9 +1,47 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "hangman"
 version = "1.0.0"
 description = "Production-grade Hangman game built with Streamlit."
 readme = "README.md"
 requires-python = ">=3.11"
+license = { text = "MIT" }
+
+authors = [
+    { name = "Bibhraj Saha" }
+]
+
+keywords = [
+    "hangman",
+    "python",
+    "streamlit",
+    "game",
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "streamlit",
+    "pyyaml",
+]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = [
+    "src*",
+]
 
 [tool.black]
 line-length = 88

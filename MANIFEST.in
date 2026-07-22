@@ -1,0 +1,14 @@
+include README.md
+include LICENSE
+include CHANGELOG.md
+include requirements.txt
+
+recursive-include config *
+recursive-include data *
+recursive-include docs *
+
+recursive-include src *.py
+recursive-include tests *.py
+
+global-exclude *.pyc
+global-exclude __pycache__

@@ -13,7 +13,7 @@ validate:
 	python -m validation.validate_project
 
 build:
-	python build.py
+	python dev_tools.py
 
 all:
 	black .
