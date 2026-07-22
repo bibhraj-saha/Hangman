@@ -143,12 +143,10 @@ h1,h2,h3,h4,h5,h6,p,label,span{
    PAGE
 ========================================================== */
 
-.block-container{
-
-    padding-top:2rem;
-
-    padding-bottom:3rem;
-
+.block-container {
+    padding-top: 4.5rem;
+    padding-bottom: 2rem;
+    max-width: 1200px;
 }
 
 </style>

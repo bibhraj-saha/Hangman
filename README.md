@@ -8,7 +8,7 @@ This project is a modernization of my original college Hangman game into a small
 
 ## Live Dashboard
 
-https://uk-housing-intelligence-platform.streamlit.app/
+https://hangman-bibhraj-saha.streamlit.app/
 
 ---
 
