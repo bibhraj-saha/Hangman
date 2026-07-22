@@ -62,7 +62,6 @@ class HighScoreManager:
             "r",
             encoding="utf-8",
         ) as file:
-
             data = json.load(file)
 
         scores = [ScoreEntry(**entry) for entry in data]
@@ -81,7 +80,6 @@ class HighScoreManager:
             "w",
             encoding="utf-8",
         ) as file:
-
             json.dump(
                 [asdict(score) for score in self.high_scores],
                 file,

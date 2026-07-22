@@ -8,33 +8,29 @@ from datetime import datetime
 
 import streamlit as st
 
-from src.ui.styles import apply_styles
-from src.ui.session import initialize_session
+from src.high_score import (
+    HighScoreManager,
+)
+from src.models import (
+    ScoreEntry,
+)
+from src.ui.components import (
+    render_guess_history,
+    render_hearts,
+    render_progress,
+    render_subtitle,
+    render_title,
+    render_word,
+)
 from src.ui.game_manager import (
     loader,
     start_new_game,
 )
-
 from src.ui.keyboard import (
     render_keyboard,
 )
-
-from src.high_score import (
-    HighScoreManager,
-)
-
-from src.models import (
-    ScoreEntry,
-)
-
-from src.ui.components import (
-    render_title,
-    render_subtitle,
-    render_hearts,
-    render_progress,
-    render_word,
-    render_guess_history,
-)
+from src.ui.session import initialize_session
+from src.ui.styles import apply_styles
 
 # ---------------------------------------------------------------------
 # PAGE CONFIGURATION
@@ -60,13 +56,11 @@ st.divider()
 # ---------------------------------------------------------------------
 
 if not st.session_state.game_started:
-
     st.subheader("🎮 Start New Game")
 
     left, right = st.columns([3, 1])
 
     with left:
-
         player_name = st.text_input(
             "Player Name",
             value=st.session_state.player_name,
@@ -84,7 +78,6 @@ if not st.session_state.game_started:
         )
 
     with right:
-
         st.write("")
         st.write("")
 
@@ -94,9 +87,7 @@ if not st.session_state.game_started:
         )
 
     if start_game:
-
         if not player_name.strip():
-
             st.error("Please enter your name.")
 
             st.stop()
@@ -186,7 +177,6 @@ st.markdown("## 📝 Guess History")
 left, right = st.columns(2)
 
 with left:
-
     render_guess_history(
         "🟢 Correct",
         state.guessed_letters,
@@ -194,7 +184,6 @@ with left:
     )
 
 with right:
-
     render_guess_history(
         "🔴 Wrong",
         state.incorrect_letters,
@@ -243,7 +232,6 @@ game_finished = False
 score = 0
 
 if engine.is_won():
-
     game_finished = True
 
     score = state.remaining_attempts * 100 + len(state.word) * 25
@@ -252,34 +240,36 @@ if engine.is_won():
 
     st.balloons()
 
-    st.markdown(f"""
+    st.markdown(
+        f"""
 ### 🏆 You guessed the word!
 
 ## **{state.word.upper()}**
 
 ### ⭐ Final Score: **{score}**
-""")
+"""
+    )
 
 elif engine.is_lost():
-
     game_finished = True
 
     st.error("💀 Game Over")
 
-    st.markdown(f"""
+    st.markdown(
+        f"""
 ### The correct word was
 
 # **{state.word.upper()}**
 
 Better luck next time!
-""")
+"""
+    )
 
 # ==========================================================
 # SAVE HIGH SCORE
 # ==========================================================
 
 if game_finished and not st.session_state.score_saved:
-
     high_score_manager.add_score(
         ScoreEntry(
             player=st.session_state.player_name,
@@ -305,12 +295,10 @@ st.divider()
 left, middle, right = st.columns([1, 1, 1])
 
 with left:
-
     if st.button(
         "🎮 New Game",
         use_container_width=True,
     ):
-
         st.session_state.game_started = False
         st.session_state.engine = None
         st.session_state.score_saved = False
@@ -318,12 +306,10 @@ with left:
         st.rerun()
 
 with middle:
-
     if st.button(
         "🔄 Play Again",
         use_container_width=True,
     ):
-
         engine = start_new_game(
             st.session_state.player_name,
             st.session_state.category,
@@ -336,7 +322,6 @@ with middle:
         st.rerun()
 
 if game_finished:
-
     st.metric(
         "Score",
         score,

@@ -41,7 +41,6 @@ for index, score in enumerate(
     manager.get_top_scores(),
     start=1,
 ):
-
     print(
         f"{index}. "
         f"{score.player:<12}"

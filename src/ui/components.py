@@ -8,12 +8,10 @@ import streamlit as st
 
 
 def render_title():
-
     st.title("🎯 Hangman")
 
 
 def render_subtitle():
-
     st.caption("Modern Python • Streamlit • Portfolio Project")
 
 
@@ -22,7 +20,6 @@ def render_game_information(
     category,
     difficulty,
 ):
-
     col1, col2, col3 = st.columns(3)
 
     col1.metric(
@@ -42,7 +39,6 @@ def render_game_information(
 
 
 def render_word(word: str):
-
     st.markdown(
         f"""
 <h1 style="text-align:center;
@@ -59,7 +55,6 @@ margin-bottom:25px;">
 def render_hearts(
     remaining_attempts,
 ):
-
     hearts = "❤️" * remaining_attempts
 
     hearts += "🤍" * (6 - remaining_attempts)
@@ -71,7 +66,6 @@ def render_progress(
     guessed,
     total,
 ):
-
     progress = guessed / total
 
     st.progress(progress)
@@ -133,7 +127,6 @@ def render_guess_chips(
     chips = ""
 
     for letter in sorted(letters):
-
         chips += f"""
 <span style="
 display:inline-block;

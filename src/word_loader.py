@@ -25,7 +25,6 @@ class WordLoader:
         database = {}
 
         for file_path in sorted(WORDS_DIRECTORY.glob("*.json")):
-
             # Skip empty files
             if file_path.stat().st_size == 0:
                 continue
@@ -34,7 +33,6 @@ class WordLoader:
                 "r",
                 encoding="utf-8",
             ) as file:
-
                 category = file_path.stem.title()
 
                 database[category] = json.load(file)

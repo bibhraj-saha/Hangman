@@ -6,11 +6,11 @@ from __future__ import annotations
 
 import streamlit as st
 
-from src.ui.styles import apply_styles
 from src.ui.components import (
-    render_title,
     render_subtitle,
+    render_title,
 )
+from src.ui.styles import apply_styles
 
 apply_styles()
 
@@ -22,7 +22,8 @@ st.divider()
 
 st.header("ℹ️ About This Project")
 
-st.markdown("""
+st.markdown(
+    """
 ## 🎯 Project Overview
 
 Hangman is a modern Python implementation of the classic word guessing game.
@@ -34,7 +35,8 @@ software engineering practices.
 Rather than being just a simple console game, it demonstrates how even a small
 project can be structured like a real-world application with clean architecture,
 modular design, testing, configuration management and an interactive web UI.
-""")
+"""
+)
 
 st.divider()
 
@@ -63,8 +65,8 @@ st.header("🛠️ Technology Stack")
 left, right = st.columns(2)
 
 with left:
-
-    st.markdown("""
+    st.markdown(
+        """
 ### Backend
 
 - Python 3
@@ -72,18 +74,20 @@ with left:
 - JSON
 - Logging
 - Session Management
-""")
+"""
+    )
 
 with right:
-
-    st.markdown("""
+    st.markdown(
+        """
 ### Frontend
 
 - Streamlit
 - Custom CSS
 - Responsive Layout
 - Interactive Components
-""")
+"""
+    )
 
 st.divider()
 
@@ -109,7 +113,8 @@ st.divider()
 
 st.header("👨‍💻 Developer")
 
-st.markdown("""
+st.markdown(
+    """
 **Bibhraj Saha**
 
 Data Engineer
@@ -117,7 +122,8 @@ Data Engineer
 This project demonstrates software engineering fundamentals including clean
 architecture, modular programming, object-oriented design, testing,
 configuration management and interactive application development.
-""")
+"""
+)
 
 st.divider()
 

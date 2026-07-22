@@ -1,1 +1,146 @@
-[]
+[
+    {
+        "player": "High",
+        "score": 9999,
+        "category": "Programming",
+        "difficulty": "Easy",
+        "word": "python",
+        "won": true,
+        "timestamp": "2026-07-22 12:48:52"
+    },
+    {
+        "player": "High",
+        "score": 9999,
+        "category": "Programming",
+        "difficulty": "Easy",
+        "word": "python",
+        "won": true,
+        "timestamp": "2026-07-22 12:51:05"
+    },
+    {
+        "player": "High",
+        "score": 9999,
+        "category": "Programming",
+        "difficulty": "Easy",
+        "word": "python",
+        "won": true,
+        "timestamp": "2026-07-22 12:53:40"
+    },
+    {
+        "player": "High",
+        "score": 9999,
+        "category": "Programming",
+        "difficulty": "Easy",
+        "word": "python",
+        "won": true,
+        "timestamp": "2026-07-22 12:54:03"
+    },
+    {
+        "player": "High",
+        "score": 9999,
+        "category": "Programming",
+        "difficulty": "Easy",
+        "word": "python",
+        "won": true,
+        "timestamp": "2026-07-22 12:56:05"
+    },
+    {
+        "player": "High",
+        "score": 9999,
+        "category": "Programming",
+        "difficulty": "Easy",
+        "word": "python",
+        "won": true,
+        "timestamp": "2026-07-22 12:57:12"
+    },
+    {
+        "player": "High",
+        "score": 9999,
+        "category": "Programming",
+        "difficulty": "Easy",
+        "word": "python",
+        "won": true,
+        "timestamp": "2026-07-22 12:57:16"
+    },
+    {
+        "player": "High",
+        "score": 9999,
+        "category": "Programming",
+        "difficulty": "Easy",
+        "word": "python",
+        "won": true,
+        "timestamp": "2026-07-22 12:57:48"
+    },
+    {
+        "player": "Tester",
+        "score": 500,
+        "category": "Programming",
+        "difficulty": "Easy",
+        "word": "python",
+        "won": true,
+        "timestamp": "2026-07-22 12:48:52"
+    },
+    {
+        "player": "Tester",
+        "score": 500,
+        "category": "Programming",
+        "difficulty": "Easy",
+        "word": "python",
+        "won": true,
+        "timestamp": "2026-07-22 12:51:05"
+    },
+    {
+        "player": "Tester",
+        "score": 500,
+        "category": "Programming",
+        "difficulty": "Easy",
+        "word": "python",
+        "won": true,
+        "timestamp": "2026-07-22 12:53:40"
+    },
+    {
+        "player": "Tester",
+        "score": 500,
+        "category": "Programming",
+        "difficulty": "Easy",
+        "word": "python",
+        "won": true,
+        "timestamp": "2026-07-22 12:54:03"
+    },
+    {
+        "player": "Tester",
+        "score": 500,
+        "category": "Programming",
+        "difficulty": "Easy",
+        "word": "python",
+        "won": true,
+        "timestamp": "2026-07-22 12:56:05"
+    },
+    {
+        "player": "Tester",
+        "score": 500,
+        "category": "Programming",
+        "difficulty": "Easy",
+        "word": "python",
+        "won": true,
+        "timestamp": "2026-07-22 12:57:12"
+    },
+    {
+        "player": "Tester",
+        "score": 500,
+        "category": "Programming",
+        "difficulty": "Easy",
+        "word": "python",
+        "won": true,
+        "timestamp": "2026-07-22 12:57:16"
+    },
+    {
+        "player": "Tester",
+        "score": 500,
+        "category": "Programming",
+        "difficulty": "Easy",
+        "word": "python",
+        "won": true,
+        "timestamp": "2026-07-22 12:57:48"
+    }
+]

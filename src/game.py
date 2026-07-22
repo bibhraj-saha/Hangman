@@ -18,7 +18,6 @@ class GameEngine:
         self,
         entry: WordEntry,
     ) -> None:
-
         self.entry = entry
 
         self.state = GameState(
@@ -37,7 +36,6 @@ class GameEngine:
         self,
         letter: str,
     ) -> bool:
-
         letter = letter.lower()
 
         if letter in self.state.guessed_letters:
@@ -47,7 +45,6 @@ class GameEngine:
             return False
 
         if letter in self.state.word:
-
             self.state.guessed_letters.add(letter)
 
             logger.info(
@@ -69,16 +66,13 @@ class GameEngine:
         return False
 
     def current_word(self) -> str:
-
         return " ".join(
             letter if letter in self.state.guessed_letters else "_"
             for letter in self.state.word
         )
 
     def is_won(self) -> bool:
-
         return all(letter in self.state.guessed_letters for letter in self.state.word)
 
     def is_lost(self) -> bool:
-
         return self.state.remaining_attempts == 0

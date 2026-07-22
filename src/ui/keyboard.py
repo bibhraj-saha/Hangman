@@ -26,11 +26,9 @@ def render_keyboard(
     st.markdown("### ⌨️ Keyboard")
 
     for row in KEYBOARD_ROWS:
-
         cols = st.columns(len(row))
 
         for column, letter in zip(cols, row):
-
             disabled = (
                 letter.lower() in guessed_letters
                 or st.session_state.engine.is_won()
@@ -38,7 +36,6 @@ def render_keyboard(
             )
 
             with column:
-
                 if st.button(
                     letter,
                     key=f"key_{letter}",
