@@ -8,7 +8,7 @@ This project is a modernization of my original college Hangman game into a small
 
 ## Live Dashboard
 
-https://hangman-bibhraj-saha.streamlit.app/
+https://hangman-bibhraj.streamlit.app/
 
 ---
 
