@@ -1,130 +1,111 @@
 # Project Roadmap
 
-This document defines the fixed development roadmap for the Hangman modernization project.
-
-The roadmap is locked before implementation begins to ensure the project remains focused and avoids unnecessary redesign during development.
+This document records the complete modernization journey of the Hangman project.
 
 ---
 
 # Phase 1 — Project Foundation
 
-## Objective
-
-Create a modern Python project foundation.
-
-### Deliverables
+## Completed
 
 - Modern project structure
-- Virtual environment
 - Configuration management
 - Logging
 - Constants
 - Utility modules
-- Project metadata
-- Documentation skeleton
-- Linting configuration
+- Documentation foundation
 - Formatting configuration
+- Linting configuration
 
 ---
 
 # Phase 2 — Game Engine Refactoring
 
-## Objective
+## Completed
 
-Refactor the original Hangman game into reusable Python modules.
-
-### Deliverables
-
-- Game engine
-- Game controller
+- Object-oriented game engine
 - Word loader
-- Categories
-- Difficulty levels
-- Configuration-driven gameplay
-- Error handling
+- 19 word categories
+- Multiple difficulty levels
+- Large JSON word database
+- High-score manager
+- Validation scripts
+- Scoring system
 
 ---
 
 # Phase 3 — Streamlit UI
 
-## Objective
+## Completed
 
-Build an interactive web application using Streamlit.
-
-### Deliverables
-
+- Multi-page Streamlit application
 - Home page
-- Play page
+- Play Game page
+- Leaderboard
 - About page
-- Session state
-- Restart game
-- New game
-- Score display
-- Statistics
-- Instructions
+- Responsive layout
+- Cream / Amber custom theme
+- Interactive keyboard
+- Guess history
+- Progress indicator
+- Hearts-based lives
+- Persistent leaderboard
+- Confetti animation
+- Session management
 
 ---
 
 # Phase 4 — Testing & Quality
 
-## Objective
+## Completed
 
-Improve code quality and automate validation.
-
-### Deliverables
-
-- Unit tests
 - pytest
+- pytest-cov
+- Unit tests
+- Validation scripts
+- Project validator
 - Ruff
 - Black
-- GitHub Actions
-- Validation guide
+- isort
+- pre-commit hooks
+- Coverage reports
 
 ---
 
 # Phase 5 — Packaging
 
-## Objective
+## Completed
 
-Prepare the application for distribution.
-
-### Deliverables
-
-- PyInstaller executable
-- Build script
-- Distribution folder
-- Installation guide
+- Modern pyproject.toml
+- Build system
+- MANIFEST.in
+- Wheel generation
+- Source distribution
+- Packaging validation
+- Twine verification
 
 ---
 
 # Phase 6 — Documentation
 
-## Objective
-
-Prepare portfolio-quality documentation.
-
-### Deliverables
+## Completed
 
 - Professional README
-- Architecture diagram
+- Architecture documentation
+- Testing guide
+- Deployment guide
 - Screenshots
-- GIF demonstration
-- CHANGELOG
-- License review
-- Documentation updates
+- GIF demonstrations
+- Portfolio documentation
 
 ---
 
-# Phase 7 — Final Release
+# Phase 7 — Release & Deployment
 
-## Objective
+## Completed
 
-Prepare the project for publication.
-
-### Deliverables
-
-- End-to-end validation
-- Final testing
-- Repository cleanup
-- Version 1.0.0 release
-- GitHub release checklist
+- GitHub Release
+- Version 1.0.0
+- Repository polish
+- Streamlit Community Cloud deployment
+- Final portfolio review

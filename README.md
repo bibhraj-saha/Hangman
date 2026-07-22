@@ -2,7 +2,19 @@
 
 A modern, interactive Hangman game built with **Python** and **Streamlit**.
 
-This project is a modernization of my original college Hangman game into a small, production-grade software engineering project suitable for my GitHub portfolio and resume.
+This project is a modernization of my original college Hangman game into a small, production-grade software engineering project.
+
+---
+
+## Live Dashboard
+
+https://uk-housing-intelligence-platform.streamlit.app/
+
+---
+
+## Architecture Diagram
+
+![Hangman Game Platform Architecture](docs/architecture_diagram.png)
 
 ---
 
@@ -97,7 +109,7 @@ Hangman/
 
 ## Current Status
 
-Under Development
+Completed
 
 Current Version:
 
